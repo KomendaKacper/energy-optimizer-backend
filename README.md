@@ -19,46 +19,6 @@ System analizuje miks energetyczny Wielkiej Brytanii (udział źródeł odnawial
 * **Testy:** JUnit 5, Mockito
 * **Architektura:** API-centric (Stateless)
 
-## ⚙️ Uruchomienie Lokalne
-
-### Wymagania
-* Java JDK 21
-* Maven 3.9+
-
-### Instrukcja
-
-1. **Sklonuj repozytorium:**
-   ```bash
-   git clone https://github.com/KomendaKacper/energy-optimizer-backend
-   cd energy-optimizer-backend
-   ```
-
-2. **Zbuduj projekt i uruchom testy:**
-   ```bash
-   mvn clean install
-   ```
-
-3. **Uruchom aplikację:**
-   ```bash
-   mvn spring-boot:run
-   ```
-
-Serwer wystartuje pod adresem: `http://localhost:8080`
-
-## 🐳 Uruchomienie z Dockerem
-
-Aplikacja posiada gotowy `Dockerfile` (Multi-stage build).
-
-1. **Zbuduj obraz:**
-   ```bash
-   docker build -t energy-optimizer-backend .
-   ```
-
-2. **Uruchom kontener:**
-   ```bash
-   docker run -p 8080:8080 energy-optimizer-backend
-   ```
-
 ## 🔌 Dokumentacja API
 
 **Główny punkt wejścia:** `/api/energy`
