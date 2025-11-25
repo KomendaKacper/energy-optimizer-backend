@@ -8,7 +8,6 @@ System analizuje miks energetyczny Wielkiej Brytanii (udział źródeł odnawial
 
 **Główne funkcjonalności:**
 * Pobieranie danych historycznych i prognozowanych z Carbon Intensity API (National Grid ESO).
-* Przetwarzanie i agregacja danych w pamięci (architektura bezbazy danych).
 * Algorytm wyznaczania optymalnego okna ładowania o zadanej długości.
 
 ## 🚀 Technologie
@@ -76,8 +75,4 @@ GET /api/energy/optimal-charge?durationHours=3
 
 ## ☁️ Deployment (Render.com)
 
-Aplikacja jest skonfigurowana do automatycznego wdrożenia na platformie Render:
-
-* **Typ serwisu:** Web Service
-* **Runtime:** Docker
-* **Port:** 8080 (wykrywany automatycznie)
+Aplikacja została wdrożona na platformie Render
