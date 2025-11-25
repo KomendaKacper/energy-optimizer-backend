@@ -14,7 +14,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/energy")
-@CrossOrigin(origins = "https://energy-optimizer-frontend.onrender.com")
 public class EnergyMixController {
 
     private final EnergyMixService energyMixService;
